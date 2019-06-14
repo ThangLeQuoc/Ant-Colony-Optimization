@@ -1,0 +1,9 @@
+C:\Users\Hanhcute\source\repos\WindowsFormsApp30\WindowsFormsApp30\bin\Debug\WindowsFormsApp30.exe.config
+C:\Users\Hanhcute\source\repos\WindowsFormsApp30\WindowsFormsApp30\bin\Debug\WindowsFormsApp30.exe
+C:\Users\Hanhcute\source\repos\WindowsFormsApp30\WindowsFormsApp30\bin\Debug\WindowsFormsApp30.pdb
+C:\Users\Hanhcute\source\repos\WindowsFormsApp30\WindowsFormsApp30\obj\Debug\WindowsFormsApp30.Properties.Resources.resources
+C:\Users\Hanhcute\source\repos\WindowsFormsApp30\WindowsFormsApp30\obj\Debug\AntColonySystem.csproj.GenerateResource.cache
+C:\Users\Hanhcute\source\repos\WindowsFormsApp30\WindowsFormsApp30\obj\Debug\AntColonySystem.csproj.CoreCompileInputs.cache
+C:\Users\Hanhcute\source\repos\WindowsFormsApp30\WindowsFormsApp30\obj\Debug\WindowsFormsApp30.exe
+C:\Users\Hanhcute\source\repos\WindowsFormsApp30\WindowsFormsApp30\obj\Debug\WindowsFormsApp30.pdb
+C:\Users\Hanhcute\source\repos\WindowsFormsApp30\WindowsFormsApp30\obj\Debug\AntColonySystem.csprojAssemblyReference.cache

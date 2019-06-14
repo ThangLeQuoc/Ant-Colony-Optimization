@@ -1,0 +1,4 @@
+C:\Users\Hanhcute\source\repos\WindowsFormsApp30\WindowsFormsApp30\obj\Debug\WindowsFormsApp30.csprojAssemblyReference.cache
+C:\Users\Hanhcute\source\repos\WindowsFormsApp30\WindowsFormsApp30\obj\Debug\WindowsFormsApp30.Properties.Resources.resources
+C:\Users\Hanhcute\source\repos\WindowsFormsApp30\WindowsFormsApp30\obj\Debug\WindowsFormsApp30.csproj.GenerateResource.cache
+C:\Users\Hanhcute\source\repos\WindowsFormsApp30\WindowsFormsApp30\obj\Debug\WindowsFormsApp30.csproj.CoreCompileInputs.cache

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HW_ACO_TSP", "HW_ACO_TSP\HW_ACO_TSP.csproj", "{CC639C34-18AB-49B5-B9BA-07BACC388E2C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CC639C34-18AB-49B5-B9BA-07BACC388E2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC639C34-18AB-49B5-B9BA-07BACC388E2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC639C34-18AB-49B5-B9BA-07BACC388E2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC639C34-18AB-49B5-B9BA-07BACC388E2C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {746F06F6-F79A-4426-B83E-1C88C364FDC7}
+	EndGlobalSection
+EndGlobal
