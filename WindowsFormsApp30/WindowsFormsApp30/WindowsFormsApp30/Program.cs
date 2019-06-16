@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -14,9 +15,14 @@ namespace AntColonySystem
         [STAThread]
         static void Main(string[] args)
         {
-            List<Point> points = TspFileReader.ReadTspFile(@"C:\Users\Hanhcute\source\repos\WindowsFormsApp30\WindowsFormsApp30\bin\Debug\br17.atsp");    // Parse TSPlib file and load as List<Point>
+            string fileName = "ACO-Matrix.txt";
+            string filePath = Path.Combine(Environment.CurrentDirectory, @"", fileName);
 
-            Graph graph = new Graph(points, true);  // Create Graph
+            //List<Point> points = TspFileReader.ReadTspFile(filePath);    // Parse TSPlib file and load as List<Point>
+            List<Point> points = AcoFileReader.ReadACOFile(filePath);
+            int[][] distanceMatrix = AcoFileReader.GetDistanceMatrix();
+
+            Graph graph = new Graph(points, true, distanceMatrix);  // Create Graph
             GreedyAlgorithm greedyAlgorithm = new GreedyAlgorithm(graph);
             double greedyShortestTourDistance = greedyAlgorithm.Run();  // get shortest tour using greedy algorithm
 
@@ -32,5 +38,6 @@ namespace AntColonySystem
             Console.WriteLine("Time: " + solver.GetExecutionTime());
             Console.ReadLine();
         }
+
     }
 }

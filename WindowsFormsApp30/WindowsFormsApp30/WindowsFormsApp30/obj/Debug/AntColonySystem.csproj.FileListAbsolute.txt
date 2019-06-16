@@ -7,3 +7,11 @@ C:\Users\Hanhcute\source\repos\WindowsFormsApp30\WindowsFormsApp30\obj\Debug\Ant
 C:\Users\Hanhcute\source\repos\WindowsFormsApp30\WindowsFormsApp30\obj\Debug\WindowsFormsApp30.exe
 C:\Users\Hanhcute\source\repos\WindowsFormsApp30\WindowsFormsApp30\obj\Debug\WindowsFormsApp30.pdb
 C:\Users\Hanhcute\source\repos\WindowsFormsApp30\WindowsFormsApp30\obj\Debug\AntColonySystem.csprojAssemblyReference.cache
+D:\Workspace\VisualStudioProjects\HW6 - Ant Colony Systems - ATSP-20190614T015320Z-001\HW6 - Ant Colony Systems - ATSP\WindowsFormsApp30\WindowsFormsApp30\WindowsFormsApp30\bin\Debug\WindowsFormsApp30.exe.config
+D:\Workspace\VisualStudioProjects\HW6 - Ant Colony Systems - ATSP-20190614T015320Z-001\HW6 - Ant Colony Systems - ATSP\WindowsFormsApp30\WindowsFormsApp30\WindowsFormsApp30\bin\Debug\WindowsFormsApp30.exe
+D:\Workspace\VisualStudioProjects\HW6 - Ant Colony Systems - ATSP-20190614T015320Z-001\HW6 - Ant Colony Systems - ATSP\WindowsFormsApp30\WindowsFormsApp30\WindowsFormsApp30\bin\Debug\WindowsFormsApp30.pdb
+D:\Workspace\VisualStudioProjects\HW6 - Ant Colony Systems - ATSP-20190614T015320Z-001\HW6 - Ant Colony Systems - ATSP\WindowsFormsApp30\WindowsFormsApp30\WindowsFormsApp30\obj\Debug\AntColonySystem.csprojResolveAssemblyReference.cache
+D:\Workspace\VisualStudioProjects\HW6 - Ant Colony Systems - ATSP-20190614T015320Z-001\HW6 - Ant Colony Systems - ATSP\WindowsFormsApp30\WindowsFormsApp30\WindowsFormsApp30\obj\Debug\WindowsFormsApp30.Properties.Resources.resources
+D:\Workspace\VisualStudioProjects\HW6 - Ant Colony Systems - ATSP-20190614T015320Z-001\HW6 - Ant Colony Systems - ATSP\WindowsFormsApp30\WindowsFormsApp30\WindowsFormsApp30\obj\Debug\AntColonySystem.csproj.GenerateResource.Cache
+D:\Workspace\VisualStudioProjects\HW6 - Ant Colony Systems - ATSP-20190614T015320Z-001\HW6 - Ant Colony Systems - ATSP\WindowsFormsApp30\WindowsFormsApp30\WindowsFormsApp30\obj\Debug\WindowsFormsApp30.exe
+D:\Workspace\VisualStudioProjects\HW6 - Ant Colony Systems - ATSP-20190614T015320Z-001\HW6 - Ant Colony Systems - ATSP\WindowsFormsApp30\WindowsFormsApp30\WindowsFormsApp30\obj\Debug\WindowsFormsApp30.pdb

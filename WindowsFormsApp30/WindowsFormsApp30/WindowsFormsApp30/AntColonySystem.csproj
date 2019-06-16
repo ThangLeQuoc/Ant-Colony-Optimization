@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Ant.cs" />
+    <Compile Include="AcoFileReader.cs" />
     <Compile Include="TspFileReader.cs" />
     <Compile Include="GreedyAlgorithm.cs" />
     <Compile Include="Helper.cs" />

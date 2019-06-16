@@ -6,25 +6,26 @@ namespace AntColonySystem
     public class Graph
     {
         public List<Point> Points { get; set; }
+
         public Dictionary<int, Edge> Edges { get; set; }
         public int Dimensions { get; set; }
         public double MinimumPheromone { get; set; }
         private bool IsSymetric { get; set; }
 
-        public Graph(List<Point> Points, bool isSymetric)
+        public Graph(List<Point> Points, bool isSymetric, int[][] distanceMatrix)
         {
             Edges = new Dictionary<int, Edge>();
             this.Points = Points;
             Dimensions = Points.Count;
             IsSymetric = isSymetric;
-            CreateEdges();
+            CreateEdges(distanceMatrix);
         }
 
         /// <summary>
         /// Create edges between all points. 
         /// NOTE: For every two points there is two edges between them in case of asymetric problem (1 -> 2, 2 -> 1).
         /// </summary>
-        private void CreateEdges()
+        private void CreateEdges(int[][] distanceMatrix)
         {
             for (int i = 0; i < Points.Count; i++)
             {
@@ -32,6 +33,7 @@ namespace AntColonySystem
                 {
                     if (i != j)
                     {
+                        // TODO @thangle: Override this edge creation with matrix distance
                         Edge edge = new Edge(Points[i], Points[j]);
                         Edges.Add(Helper.HashFunction(Points[i].Id, Points[j].Id), edge);
                     }
@@ -44,6 +46,7 @@ namespace AntColonySystem
         /// </summary>
         public Edge GetEdge(int firstPointId, int secondPointId)
         {
+            // TODO @thangle override this
             return Edges[Helper.HashFunction(firstPointId, secondPointId)];
         }
 
