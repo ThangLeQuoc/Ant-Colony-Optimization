@@ -29,11 +29,10 @@ namespace AntColonySystem
                 {
                     string[] spitted = item.Split(' ').Where(x => x != string.Empty).ToArray();
 
-                    // TODO @thangle: Check this point creation logic
                     int pointId = int.Parse(spitted[1]);
                     float pointX = float.Parse(spitted[1], NumberStyles.Any, ci);
                     float pointY = float.Parse(spitted[2], NumberStyles.Any, ci);
-                    // TODO @thangle: The point ID and coordinate is incorrect !
+                    
                     Point newPoint = new Point(pointId, pointX, pointY);
                     points.Add(newPoint);
                 }

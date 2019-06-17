@@ -33,8 +33,9 @@ namespace AntColonySystem
                 {
                     if (i != j)
                     {
-                        // TODO @thangle: Override this edge creation with matrix distance
+                        // Override this edge creation with matrix distance
                         Edge edge = new Edge(Points[i], Points[j]);
+                        edge.Length = distanceMatrix[i][j];
                         Edges.Add(Helper.HashFunction(Points[i].Id, Points[j].Id), edge);
                     }
                 }

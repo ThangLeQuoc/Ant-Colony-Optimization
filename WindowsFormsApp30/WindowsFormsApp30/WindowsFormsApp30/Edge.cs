@@ -16,8 +16,8 @@ namespace AntColonySystem
         {
             Start = start;
             End = end;
-            // TODO @thangle: Find a way to skip this, since the dimension already provide the the distance
-            Length = Math.Round(Start.DistanceTo(End));
+            // Skip this, since the dimension already provide the the distance
+            // Length = Math.Round(Start.DistanceTo(End));
         }
     }
 }

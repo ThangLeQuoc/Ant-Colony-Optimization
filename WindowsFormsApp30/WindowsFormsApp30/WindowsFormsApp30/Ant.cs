@@ -30,7 +30,10 @@ namespace AntColonySystem
         {
             StartNodeId = startNodeId;
             Distance = 0;
-            VisitedNodes.Add(Graph.Points.Where(x => x.Id == startNodeId).First());
+            List<Point> visitedPoints = Graph.Points.Where(x => x.Id == startNodeId).ToList();
+            if (visitedPoints.Count > 0) {
+                VisitedNodes.Add(visitedPoints.First());
+            }
             UnvisitedNodes = Graph.Points.Where(x => x.Id != startNodeId).ToList();
             Path.Clear();
         }
